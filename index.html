@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            <ol>
+              <li>Click "Generate Password" and follow the series of prompts that appear on the screen.</li>
+              <li>Enter your desired password length when prompted.</li> 
+              <li>Choose at least one of the following character types by clicking "OK" when prompted.</li>
+                <ul>
+                  <li>Lowercase characters</li>
+                  <li>Uppercase characters</li>
+                  <li>Numbers</li>
+                  <li>Special characters (! @ #, etc.)</li>
+                </ul>
+              <li>If you click "Cancel" on the character prompts, the character type will not be included in your password.</li>
+            </ol>
+          </p>
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button> 
+        </div>
+      </div>
+    </div>
+    <script src="./assets/javascript/script.js"></script>
+  </body>
+</html>
