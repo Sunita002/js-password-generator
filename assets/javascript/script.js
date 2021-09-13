@@ -53,11 +53,11 @@ var criteriaSelect = function() {
 var generatePassword = function() {
   
   // setting character length
-  var charLength = prompt('What is the desired length of your password?  Please enter a number between "8" and "128".');
+  var charLength = prompt('What is the desired length of your password?  Please enter a number between "9" and "100".');
   charLength = parseInt(charLength);
   console.log('Character length is ' + charLength);
   
-  if (isNaN(charLength) || charLength < 8 || charLength > 128) {
+  if (isNaN(charLength) || charLength < 9 || charLength > 100) {
     return generatePassword();
   }
 
