@@ -63,14 +63,14 @@ var generatePassword = function() {
 
   // generates password based on selected criteria
   var charSet = criteriaSelect();
-  var retPassword = "";
+  var runPassword = "";
   
   for (var i = 0, n = charSet.length; i < charLength; i++) {
-    retPassword += charSet[Math.floor(Math.random() * n)];
+    runPassword += charSet[Math.floor(Math.random() * n)];
   }
-  console.log("Generated password is " + retPassword);
+  console.log("Generated password is " + runPassword);
   
-  return retPassword;
+  return runPassword;
 }
 
 // Get references to the #generate element
