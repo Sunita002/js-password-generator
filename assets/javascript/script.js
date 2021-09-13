@@ -68,7 +68,7 @@ var generatePassword = function() {
   for (var i = 0, n = charSet.length; i < charLength; i++) {
     runPassword += charSet[Math.floor(Math.random() * n)];
   }
-  console.log("Generated password is " + runPassword);
+  console.log("Here is your generated password " + runPassword);
   
   return runPassword;
 }
