@@ -13,13 +13,17 @@ SO THAT I can create a strong password that provides greater security
 
  ## CSS
  <li>Consolidated CSS classes that had the same margin, padding and height</li>
- 
+
 ## Java
 <li>Added password criteria</li>
 <li>Created prompts for password criteria and collected user input in response to the prompts</li>
 <li>Set character length for password using for loop</li>
+<li>Generated password based on selected criteria</li>
 
 
 ## Launch Application
+![password-generator-screenshot](https://user-images.githubusercontent.com/87583026/133009300-f8f62963-ea24-43b7-ae9b-36017aa98c37.png)
 
-
+# Deployment of Application
+https://sunita002.github.io/js-password-generator/
+https://github.com/Sunita002/js-password-generator
