@@ -25,5 +25,5 @@ SO THAT I can create a strong password that provides greater security
 ![password-generator-screenshot](https://user-images.githubusercontent.com/87583026/133009300-f8f62963-ea24-43b7-ae9b-36017aa98c37.png)
 
 # Deployment of Application
-https://sunita002.github.io/js-password-generator/
-https://github.com/Sunita002/js-password-generator
+<li>https://sunita002.github.io/js-password-generator/</li>
+<li>https://github.com/Sunita002/js-password-generator</li>
